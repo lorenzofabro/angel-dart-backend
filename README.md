@@ -1,4 +1,4 @@
-## Angel Dart Backend
+## Angel Dart Demo
 
 ### About
 - 🛠 Trying out Angel Framework to use Dart on the Server
