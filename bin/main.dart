@@ -3,8 +3,7 @@ import 'package:angel_hot/angel_hot.dart';
 import 'routes.dart';
 
 main() async {
-  var hot = HotReloader(
-      createServer, ["/home/lorenzofabro/dev/personal/angel-dart-backend"]);
+  var hot = HotReloader(createServer, ["."]);
   await hot.startServer('localhost', 3000);
 }
 
